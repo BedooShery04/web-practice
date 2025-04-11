@@ -300,7 +300,8 @@ button {
 .main-container .contain article .part2 .clips .clip .img {
     background-size: contain;
     width: 100%;
-    height: 20vh;
+    height: 22vh;
+    background-repeat: no-repeat;
 }
 
 .main-container .contain article .part2 .clips .clip .info {
@@ -544,12 +545,40 @@ button {
         flex-direction: column;
     }
 
-    .main-container .contain article .part1,
+    .main-container .contain .part1 {
+        display: block;
+    }
+
+    .main-container .contain .part1 .img img {
+        width: 95%;
+        margin: 2vh 5%;
+    }
+
     .main-container .contain article .part2 .clips .clip {
         display: flex;  
         width: 75%;
     }
-}
+
+    .main-container .contain article .part2 .clips .clip .img {
+        height: 55vh;
+    }
+
+    .main-container .content .popular .cards .card {
+        width: 100%;
+    }
+
+    .main-container .contain .lib .my-games .gm h3 {
+        font-size: 12px;
+    }
+
+    .main-container .contain .lib .my-games .gm {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "a b"
+                             "c f"
+                             "e f";
+    }
+}   
 
 .main-container nav label,
 .main-container nav #list {

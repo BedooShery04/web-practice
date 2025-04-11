@@ -211,7 +211,6 @@ button {
 .main-container .lve-top article .holder .live-stram .img img,
 .main-container .lve-top article .holder .live-stram .img {
     border-radius: 30px;
-    transition: opacity 0.4s linear, filter 0.4s linear, transform 0.3s ease-in-out;
 }
 
 .main-container .lve-top article .holder .live-stram .img img {
@@ -230,7 +229,6 @@ button {
     border-radius: 30px;
     transform: translateY(-75px);
     opacity: 0;
-    transition: opacity 0.4s, transform 0.3s ease-in-out;
 }
 
 .main-container .lve-top article .holder .live-stram .img:hover .btn {
@@ -315,8 +313,6 @@ button {
     color: var(--PrimeColor);
 }
 
-/* =============================================== */
-
 .main-container .contain .popular {
     background-color: var(--darkGray);
     border-radius: 30px;
@@ -350,7 +346,6 @@ button {
     position: absolute;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 
 .main-container .contain .popular .main-pop .img .btn-left {
@@ -380,7 +375,6 @@ button {
     border-radius: 30px;
     width: 250px;
     height: 250px;
-    transition: linear 0.4s;
 }
 
 .main-container .contain .popular .main-pop .pop .img:hover {
